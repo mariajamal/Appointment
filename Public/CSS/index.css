@@ -1,0 +1,40 @@
+.main{
+    text-align: center;
+    margin: 12% auto;
+}
+.appoitment{
+    display: block;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.date{
+    display: list-item;
+    list-style-type: none !important;
+    padding: 0 20px;
+}
+.padding{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 3px;
+}
+.datetime{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 30px 30px;
+    padding: 30px
+   
+}
+.table{
+    display: none;
+}
+#button1{
+    display: none;
+}
+.trial{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 3px;
+    background-color:rgb(65, 203, 221);
+}
