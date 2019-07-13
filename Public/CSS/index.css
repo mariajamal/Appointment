@@ -17,6 +17,7 @@
     border: 1px solid black;
     border-radius: 5px;
     margin: 0px 3px;
+    background-color: white;
 }
 .datetime{
     display: grid;
@@ -37,4 +38,10 @@
     border-radius: 5px;
     margin: 0px 3px;
     background-color:rgb(65, 203, 221);
+}
+.remclass{
+    display: list-item;
+    list-style-type: none !important;
+    padding: 0 20px;
+    background-color: white;
 }

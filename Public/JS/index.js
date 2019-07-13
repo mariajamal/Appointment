@@ -34,21 +34,21 @@ function formSub(){
           var  evening = ["04:00 PM","04:30 PM","05:00 PM","05:30 PM","06:00 PM","06:30 PM","07:00 PM","07:30 PM","08:00 PM"];
        
     document.getElementById("date").addEventListener("click", function(event) {
+        let sty = event.target.id   
         if(appoint.length >= 0){
+            // document.getElementById("date").classList.remove = "trial"
             appoint.splice(0,appoint.length,event.target.id)
-
             console.log(appoint)
-            let sty = event.target.id
-            // document.getElementById(node).classList.remove("trial")
-            
-            document.getElementById(sty).className = "trial"
+            // document.getElementById.className = "remclass"
+            disDate.appendChild(node).className = "remclass"
+            // document.getElementById(sty).className = "trial"
         }else{
             appoint.push(event.target.id);
             let sty = event.target.id
-            document.getElementById(sty).className = "trial"
+            
             console.log(appoint)
         }
-        
+        document.getElementById(sty).className = "trial"
         });
         
     function display(){
